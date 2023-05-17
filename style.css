@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(250, 255, 254);
+}
+
+main {
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 30px;
+  width: 80%;
+  height: 95vh;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+header {
+  background-color: green;
+  color: white;
+}
+
+.add {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.form-control {
+  margin: 5px 40px 20px 0;
+  display: inline-block;
+  width: 48.5%;
+}
+
+.btn-outline-primary {
+  width: 10%;
+}
+
+.list-group-item {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
